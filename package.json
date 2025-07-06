@@ -1,0 +1,12 @@
+{
+  "name": "cypress-google-e2e",
+  "version": "1.0.0",
+  "description": "Simple Cypress E2E test with Google as baseUrl",
+  "scripts": {
+    "test": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.5.0"
+  }
+}
