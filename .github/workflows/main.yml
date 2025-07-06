@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: cypress/included:14.5.1
+      image: alpine:latest
+      # image: cypress/included:14.5.1
 
     steps:
       - name: Checkout code
